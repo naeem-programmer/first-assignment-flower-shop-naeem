@@ -1,0 +1,271 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* This Is Navbar Section Style */
+
+.nav-container {
+
+    display: flex;
+    background: rgba(185, 121, 135, 0.3);
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu {
+
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    gap: 25px;
+    color: #272727;
+    font-family: Lato;
+}
+
+.menu li:hover {
+
+    background: #E55473;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-primary {
+
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* This Is First Section Style */
+
+.banner-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 50px;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 100px;
+
+}
+
+
+
+.banner-heading {
+
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+
+
+}
+
+.banner-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+
+}
+
+.first-banner-image {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* This is Second Section Style */
+
+
+
+
+/* This Is Third Section Style */
+
+.third-banner-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.third-banner-heading {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.third-banner-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+
+}
+
+.third-banner-image {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* This is Forth Section Style */
+
+.instagram-info {
+
+    text-align: center;
+}
+
+.instagram-heading {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.instagram-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.box-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+/* This is fifth section Style */
+
+.fifth-section-container {
+
+    background-image: url("./Flower-Asset/Rectangle-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 80px;
+}
+
+.fifth-section-title {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.fifth-section-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.subscribe input[type="email"] {
+
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+}
+
+::placeholder {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+/* This Is Footer Style */
+
+.footer-container {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    height: 400px;
+}
+
+.footer-heading {
+
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.footer-span {
+
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer-copyright {
+
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Style Finis. May Allah Bless you my Examiner */
